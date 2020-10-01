@@ -1,0 +1,130 @@
+
+body {
+    background-color: #990909;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 18px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: block;
+}
+
+.headwrap {
+    display:flex;
+    justify-content:center;
+}
+
+
+.headPict{
+    height: 23vh;
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 1px;
+    background-color: black;
+    width: auto;
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    
+}
+
+.headPict>a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.headPict>a>img {
+    width: 25vh;
+
+}
+
+main {
+    display: flex;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.title {
+
+    width: 20%;
+    background-color: #7d0909;
+
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10%;
+}
+
+nav a {
+    border: 2px solid transparent;
+    transition: all .3s linear;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    border-color: #fff;
+}
+
+li>nav>a {
+    color: #d85b11;
+    font-weight: bold;
+   
+}
+.artic {
+    padding-left: 1%;
+    width: 65%;
+    color: white;
+    padding-right: 1%;
+    text-align: justify;
+}
+
+.rightTitle {
+    height: 60%;
+    width: 15%;
+    background-color: #e3dddd;
+    display: block;
+    
+}
+
+.tit {
+    text-align: center;
+    background-color: #bdbdbd;
+}
+
+
+.border {
+    border-bottom: 0px solid #9a9a9a;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+aside>p {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 10%;
+}
+
+footer {
+    margin-top: 2%;
+    text-align: center;
+    background-color: #e95b11;
+    font-size: 20px;
+    color: white;
+}
